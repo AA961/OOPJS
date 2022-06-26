@@ -1,0 +1,38 @@
+body{
+    font-family: "Poppins";
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    margin: 1rem;
+    padding: 0.5rem 2rem ;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .4s ease-in;
+}
+input{
+    padding: 1rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: black 2px solid;
+    border-radius: 6px;
+    margin: 0.7rem;
+}
+button:hover{
+    color: black;
+    background-color: darkgray;
+}
+h1{
+    font-size: 32px;
+}
